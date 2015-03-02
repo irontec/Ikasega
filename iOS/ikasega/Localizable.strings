@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  ikasega
+
+  Created by Sergio Garcia on 27/1/15.
+  Copyright (c) 2015 Sergio Garcia. All rights reserved.
+*/
+
+"appName" = "Ikasega";
+
+// Titles
+"titleExams" = "Azterketak";
+"titleHistory" = "Jarduera";
+"titlePoints" = "Puntuazioa";
+
+"descExams" = "Aukeratu behar duzun azterketa eta hasi egiten!";
+"descHistory" = "Begiratu egin dituzun azterketen emaitzak";
+"descPoints" = "Ikusi lortu duzun puntuazioa azterketa egiten!";
+
+// New exams avalaible
+"newExamsMessage" = "Azterketa berriak daude, jarraitu nahi duzu?";
+
+// Empty texts
+"noExamsDownloaded" = "Oraindik ez duzu azterketarik jaitsi, ikutu jaisteko!";
+"noExamsFinished" = "Azterketak egin ondoren hemen ikus ditzakezu zure emaitzak.";
+
+// Exams lists
+"Questions" = "Galderak:";
+"Right" = "Zuzenak:";
+"Wrong" = "Okerrak";
+
+// iOS Player Data
+"playerTitle" = "Entzuteko ulermena";
+"mediaPlayerArtist" = "Ikasega";
+"mediaPlayerAlbum" = "Ikastek";
+
+// UserActivity texts
+"totalFinishedExams" = "azterketa egindak";
+"totalRightQuestions" = "erantzun zuzenak";
+"totalWrongQuestions" = "erantzun okerrak";
+"totalPercentage" = "batesbestekoa";
+
+// Exam completed
+"examFinishedQuestion" = "Galderak: %lu";
+"examFinishedRight" = "Zuzenak: %ld";
+"examFinishedWrong" = "Okerrak: %ld";
+
+"restoreExamTitle" = "Kontuz!";
+"restoreExamenMessage" = "Azterketa ezabatu nahi duzu berriro hasteko?";
+
+"shareMessage" = "Banatu!";
+
+// Globals
+"Yes" = "Bai";
+"No" = "Ez";
+"When" = "Noiz";
+"Time" = "Denbora";
+"Question" = "Galdera:";
+"POINTS" = "PUNTU";
+
+
+// Share Data
+"shareText" = "%@ azterketa amaitu dut %d galdera zuzenekin Ikasega-n!";
+"shareURL" = "http://ikastek.net/Ikasega/";

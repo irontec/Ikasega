@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Answer" representedClassName="Answer" syncable="YES">
+        <attribute name="answ" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idAnswer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="valid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Question" inverseName="answers" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <entity name="Exam" representedClassName="Exam" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="file" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hashExam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idExam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="realFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="versionCode" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Question" inverseName="exam" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <entity name="Progress" representedClassName="Progress" syncable="YES">
+        <attribute name="elapsedTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="finishDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="idExam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="totalRightAnswers" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalWrongAnswers" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="answeredQuestion" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Question" syncable="YES"/>
+    </entity>
+    <entity name="Question" representedClassName="Question" syncable="YES">
+        <attribute name="customOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="idQuestion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionHtml" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionText" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="answers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Answer" inverseName="question" inverseEntity="Answer" syncable="YES"/>
+        <relationship name="exam" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exam" inverseName="questions" inverseEntity="Exam" syncable="YES"/>
+    </entity>
+    <entity name="Ranking" representedClassName="Ranking" syncable="YES">
+        <attribute name="elapsedTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="finishDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="percentage" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rightAnswers" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wrongAnswers" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Answer" positionX="18" positionY="18" width="128" height="105"/>
+        <element name="Exam" positionX="-378" positionY="63" width="128" height="178"/>
+        <element name="Progress" positionX="-326" positionY="449" width="128" height="28"/>
+        <element name="Question" positionX="-171" positionY="146" width="128" height="133"/>
+        <element name="Ranking" positionX="43" positionY="279" width="128" height="148"/>
+    </elements>
+</model>
