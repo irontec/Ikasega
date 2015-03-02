@@ -4,7 +4,7 @@
 Deskribapena
 ------------
 
->[Ikasesteka][1] Presta ezazu EGA mailako froga zure smartphone-n, benetako azterketekin. Aplikazio honek EGA ziurtagirira aurkezteko prest zauden jakiten lagunduko dizu, prestatzeko errepasatu eta zure garapena ikusi. Atariko probak eta entzumenak barneratzen ditu. Euskara ikastea askoz ere errazagoa da Ikasegarekin!
+>[Ikasesteka][1]: Presta ezazu EGA mailako froga zure smartphone-n, benetako azterketekin. Aplikazio honek EGA ziurtagirira aurkezteko prest zauden jakiten lagunduko dizu, prestatzeko errepasatu eta zure garapena ikusi. Atariko probak eta entzumenak barneratzen ditu. Euskara ikastea askoz ere errazagoa da Ikasegarekin!
 
 
 Libreriak
