@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">Ikasega</string>
+        <string name="action_settings">Ezarpenak</string>
+        <string name="action_rank">Laburpena</string>
+        <string name="action_info">Informazioa</string>
+
+        <!-- Info URL -->
+        <string name="info_url">http://ikastek.net/aplikazioak/helduentzako/ikasega/</string>
+
+        <!-- Questions -->
+        <string name="question_title">Galdera:</string>
+        <string name="question_text_example">Tibetarrak altuerara nola egokitzen diren argiago dago.\n\nScience aldizkariaren uztailaren 4ko zenbakian tibetarrek altuerarekiko duten egokitzapen mekanismoari buruzko arrasto sendoak eman zituzten. Munduan bi populazio bizi dira 4.000 metrotik gora, tibetarrak eta andetarrak. Azken horien altuerarekiko egokitzapen mekanismoa ezaguna da: euren odolak askoz hemoglobina gehiago ekoizten du gainerako gizakiona baino; horrela, nahiz eta bizi diren altueran
+itsas mailan baino %40 oxigeno gutxiago izan, beraiek oxigeno gehiago garraia dezakete gorputzeko zeluletaraino.\n\nBaina hemoglobina ekoizpen horrek oso ondorio kaltegarriak ditu andetarrentzat. Odola loditu egiten da, eta horrek zaildu egiten du ehunen oxigenazioa. Horregatik, emakume haurdunek ume asko galtzen dituzte, eta jaiotzen direnak oso txikiak dira. Tibetarren hemoglobina kopurua, berriz, normala da; haien kasuan, geneetan dago gakoa, eta batez ere EPAS1 izena duen eta goi mailako kirolean ondo ezaguna den genean. Antza, egungo tibetarrengan EPAS1 genea mutatu egin da, eta oxigeno eskasiara moldarazi ditu gorputzak. Joxerra Aizpurua (Argia, 2010)</string>
+        <string name="title_activity_question"/>
+
+        <!-- Success -->
+        <string name="correct">Erantzun zuzena!</string>
+
+        <!-- Errors -->
+        <string name="http_error">Konexioarekin arazoak daude..</string>
+        <string name="dialog_default_title">Here\'s a message!</string>
+        <string name="dialog_ok">Bai</string>
+        <string name="dialog_cancel">Ezeztatu</string>
+        <string name="title_activity_splash"/>
+        <string name="play">Jokatu</string>
+        <string name="title_activity_ranking">Laburpena</string>
+        <string name="title_activity_finished_exam"/>
+        <string name="share_text">%1$s azterketa amaitu dut %2$s galdera zuzenekin Ikasega-n! http://ikastek.net/Ikasega/</string>
+        <string name="share_using">Banatu</string>
+
+</resources>
